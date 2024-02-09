@@ -1,7 +1,6 @@
-# shell-script-app
+# weather-shell-script
 
-<img width="918" alt="Screenshot 2024-02-09 at 1 03 11 PM" src="https://github.com/perrileah/shell-script-app/assets/125906074/c055e919-0525-430c-950f-68e37a241b4f">
-
+<img width="720" alt="Screenshot 2024-02-09 at 1 11 46 PM" src="https://github.com/perrileah/weather-shell-script/assets/125906074/7ef1d377-3f45-43a3-aaca-f18f0ff43a1d">
 
 My first shell script! This is a simple shell script that gets the weather for a particular zip code or city. 
 
