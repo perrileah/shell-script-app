@@ -7,3 +7,8 @@ weather_data="$(curl -s "http://api.weatherapi.com/v1/current.json?key=APIKEY&q=
 conditions="$(echo "$weather_data" | jq -r '.current.condition.text')"
 
 echo $conditions
+
+# Parse the resulting JSON data to get temperature
+temperature="$(echo "$weather_data" | jq -r '.current.temp_f')"
+
+echo $temperature
