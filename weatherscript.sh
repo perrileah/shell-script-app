@@ -1,7 +1,7 @@
 #! /bin/bash
 
-# Print a message asking the user for a zip code
-echo "What is your location?"
+# Print a message asking the user for a city or zip code
+echo "Please enter a city or zip code"
 
 # Run the command read and save users response into the variable location
 read location
@@ -18,4 +18,4 @@ temperature="$(echo "$weather_data" | jq -r '.current.temp_f')"
 
 
 # Print the weather conditions and temperature
-echo "Currently, the weather in $location is $conditions with a temperature of $temperature °F. Have a nice day!"
+echo -e "Currently, the weather in \033[1;32m $location \033[0m is \033[1;32m $conditions \033[0m with a temperature of \033[1;32m $temperature °F. \033[0m Have a nice day! 😊"
